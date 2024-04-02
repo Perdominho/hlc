@@ -758,40 +758,40 @@ Diseño de flyers y folletos.
           </figure>
         </section>
 
-        <section class="contact-form">
+        <style>
+  .contact-form label {
+    margin-top: 10px;
+    display: block; /* Para que cada label ocupe una línea */
+  }
+</style>
 
-          <h3 class="h3 form-title">Formulario de contacto</h3>
+<section class="contact-form">
+  <h3 class="h3 form-title">Formulario de contacto</h3>
 
-<!-- modify this form HTML and place wherever you want your form -->
-<form
-  action="https://formspree.io/f/mayrdzpa"
-  method="POST"
->
-  
-    
-    <label style="margin-top: 10px;">
-            <input type="Name" name="Name" class="form-input" placeholder="Tu nombre" required data-form-input></textarea>
-  </label>
-  <label>
-    <input type="number" name="phone" class="form-input" placeholder="Teléfono" required data-form-input>
-  </label>
-  
-    <label style="margin-top: 10px;">
-    <input type="email" name="email" class="form-input" placeholder="Email" required data-form-input>
-  </label>
-  
-    
-    <label style="margin-top: 10px;">
-            <textarea name="message" class="form-input" placeholder="Tu mensaje" required data-form-input></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button class="form-btn" type="submit" >
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Enviar mensaje</span>
-            </button>
-</form>
+  <form action="https://formspree.io/f/mayrdzpa" method="POST">
+    <label>
+      <input type="Name" name="Name" class="form-input" placeholder="Tu nombre" required data-form-input>
+    </label>
 
-        </section>
+    <label>
+      <input type="number" name="phone" class="form-input" placeholder="Teléfono" required data-form-input>
+    </label>
+
+    <label>
+      <input type="email" name="email" class="form-input" placeholder="Email" required data-form-input>
+    </label>
+
+    <label>
+      <textarea name="message" class="form-input" placeholder="Tu mensaje" required data-form-input></textarea>
+    </label>
+
+    <button class="form-btn" type="submit">
+      <ion-icon name="paper-plane"></ion-icon>
+      <span>Enviar mensaje</span>
+    </button>
+  </form>
+</section>
+
 
       </article>
 
