@@ -1161,7 +1161,7 @@ main {
 }
 
 .form-input {
-  color: var(--white-2);
+  
   font-size: var(--fs-6);
   font-weight: var(--fw-400);
   padding: 13px 20px;
